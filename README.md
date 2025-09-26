@@ -42,15 +42,20 @@
    conda create -n agingXAI python=3.7.13
    conda activate agingXAI
    conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
-
-
-   if you want to out
-   conda deactivate 
+   ```
+cf. when you on/off the virtual environment
+   ```sh
+   conda activate agingXAI  
+   conda deactivate
    ```
 3. Install dependencies
    ```sh
    pip install -r requirements.txt
    ```
+
+cf. when run .ipynb in VScode
+you have to choose the right kernel in the top of rigth side
+
 
 ## Usage
 
