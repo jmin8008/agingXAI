@@ -40,7 +40,12 @@
 2. Create conda environment
    ```sh
    conda create -n agingXAI python=3.7.13
+   conda activate agingXAI
    conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.3 -c pytorch
+
+
+   if you want to out
+   conda deactivate 
    ```
 3. Install dependencies
    ```sh
